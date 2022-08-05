@@ -1,9 +1,20 @@
 # SpringEcommerceCapstone
 Revamped Ecommerce Capstone with Springboot Backend 
+
+
+##Implementation Work
 - Currently Configuring Azure 
 - Playing with DiffBlue for Easy Testing
 - Setup Postman Collection for Endpoint Testing
 - Configuring Sonarcloud
+
+##Development Work
+- Converted to Controllers over WebServlets 
+- Fixed Bugs 
+- Need to Fix More Bugs :(
+- Familiarize with Springboot backend 
+- Understand and Develop RestControllers
+- Inject Dependencies such as Stripe and Okta
 
 [![Build and deploy WAR app to Azure Web App - EvolveLuxury](https://github.com/HCLEvolveEcommerce/SpringEcommerceCapstone/actions/workflows/master_evolveluxury.yml/badge.svg)](https://github.com/HCLEvolveEcommerce/SpringEcommerceCapstone/actions/workflows/master_evolveluxury.yml)
 
