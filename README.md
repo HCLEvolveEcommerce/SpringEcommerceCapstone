@@ -2,13 +2,13 @@
 Revamped Ecommerce Capstone with Springboot Backend 
 
 
-#Implementation Work
+# Implementation Work
 - Currently Configuring Azure 
 - Playing with DiffBlue for Easy Testing
 - Setup Postman Collection for Endpoint Testing
 - Configuring Sonarcloud
 
-#Development Work
+# Development Work
 - Converted to Controllers over WebServlets 
 - Fixed Bugs 
 - Need to Fix More Bugs :(
