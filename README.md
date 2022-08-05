@@ -3,6 +3,7 @@ Revamped Ecommerce Capstone with Springboot Backend
 - Currently Configuring Azure 
 - Playing with DiffBlue for Easy Testing
 - Setup Postman Collection for Endpoint Testing
+- Configuring Sonarcloud
 
 [![Build and deploy WAR app to Azure Web App - EvolveLuxury](https://github.com/HCLEvolveEcommerce/SpringEcommerceCapstone/actions/workflows/master_evolveluxury.yml/badge.svg)](https://github.com/HCLEvolveEcommerce/SpringEcommerceCapstone/actions/workflows/master_evolveluxury.yml)
 
