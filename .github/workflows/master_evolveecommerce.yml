@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'EvolveEcommerce'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8D012B32077F40CEA27492061F6A0D7C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_37AC1CE75492449FBF34ACC643B36504 }}
           package: '*.war'
