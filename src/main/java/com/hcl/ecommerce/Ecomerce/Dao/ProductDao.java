@@ -53,7 +53,7 @@ public class ProductDao {
                 row.setPrice(rs.getDouble("price"));
                 row.setImage(rs.getString("image"));
 
-                book.add(row);
+                book.add(row); //hey new com
             }
 
         } catch (SQLException e) {
