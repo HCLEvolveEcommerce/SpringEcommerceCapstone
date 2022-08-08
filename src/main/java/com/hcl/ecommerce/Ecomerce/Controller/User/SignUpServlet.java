@@ -5,6 +5,7 @@ import com.hcl.ecommerce.Ecomerce.Model.DbCon;
 import com.hcl.ecommerce.Ecomerce.Model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletConfig;
@@ -30,28 +31,22 @@ public class SignUpServlet extends HttpServlet {
         String state = request.getParameter("state");
         String country = request.getParameter("country");
         String lastname = request.getParameter("lastname");
-        String phoneNumber = request.getParameter("phonenumber");
+        String phonenumber = request.getParameter("phonenumber");
         UserDao udao = null;
-        User user = new User(firstname, email, password, usertype, address, city, zip, state, country, lastname, phoneNumber);
+        User user = new User(firstname, email, password, usertype, address, city, zip, state, country, lastname, phonenumber);
         try {
             udao = new UserDao(DbCon.getConnection());
             udao.insertUser(user);
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);
         }
-        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/email-signup");
-        dispatcher.forward(request, response);
+        response.sendRedirect("index.jsp");
     }
 
     @Override
+    @PostMapping(value = "/signup-user")
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request, response);
-    }
-
-    @Override
-    public void init(ServletConfig config) throws ServletException
-    {
-        super.init(config);
     }
 }
 
