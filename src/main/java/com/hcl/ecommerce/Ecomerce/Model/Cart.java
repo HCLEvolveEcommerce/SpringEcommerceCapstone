@@ -1,5 +1,10 @@
 package com.hcl.ecommerce.Ecomerce.Model;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Cart extends Product{
 
     private int quantity;
@@ -7,13 +12,4 @@ public class Cart extends Product{
     public Cart(){
 
     }
-
-    public int getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
-
 }
