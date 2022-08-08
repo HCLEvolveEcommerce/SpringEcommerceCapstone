@@ -7,6 +7,7 @@ Revamped Ecommerce Capstone with Springboot Backend
 - Playing with DiffBlue for Easy Testing
 - Setup Postman Collection for Endpoint Testing
 - Configuring Sonarcloud
+- Implement Cloudinary
 
 # Development Work
 - Converted to Controllers over WebServlets 
