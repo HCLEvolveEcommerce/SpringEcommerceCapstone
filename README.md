@@ -15,6 +15,7 @@ Revamped Ecommerce Capstone with Springboot Backend
 - Familiarize with Springboot backend 
 - Understand and Develop RestControllers
 - Inject Dependencies such as Stripe and Okta
+- Convert Models to Lombok 
 
 [![Build and deploy WAR app to Azure Web App - EvolveLuxury](https://github.com/HCLEvolveEcommerce/SpringEcommerceCapstone/actions/workflows/master_evolveluxury.yml/badge.svg)](https://github.com/HCLEvolveEcommerce/SpringEcommerceCapstone/actions/workflows/master_evolveluxury.yml)
 
