@@ -25,8 +25,6 @@ Revamped Ecommerce Capstone with Springboot Backend
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=HCLEvolveEcommerce_SpringEcommerceCapstone&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=HCLEvolveEcommerce_SpringEcommerceCapstone)
 
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=HCLEvolveEcommerce_SpringEcommerceCapstone&metric=coverage)](https://sonarcloud.io/summary/new_code?id=HCLEvolveEcommerce_SpringEcommerceCapstone)
-
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=HCLEvolveEcommerce_SpringEcommerceCapstone&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=HCLEvolveEcommerce_SpringEcommerceCapstone)
 
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=HCLEvolveEcommerce_SpringEcommerceCapstone&metric=bugs)](https://sonarcloud.io/summary/new_code?id=HCLEvolveEcommerce_SpringEcommerceCapstone)
