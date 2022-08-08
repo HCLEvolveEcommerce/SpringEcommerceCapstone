@@ -11,7 +11,7 @@ import java.io.IOException;
 @Controller
 public class HomePage {
 
-    @GetMapping(value = "/")
+    @GetMapping
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.sendRedirect("index.jsp");
     }
